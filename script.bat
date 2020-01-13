@@ -1,18 +1,18 @@
 @echo off
 
-REM d is the current working directory where git is initialized
+:: d is the current working directory where git is initialized
 set d=%cd% 
 set username=gauravshilpakar
-REM path where the py script is located
+:: path where the py script is located
  cd D:\CodeProjects\PY\automate_git_py
 python gith.py
 
-REM takes the last folder of the current directory for the repository name
+:: takes the last folder of the current directory for the repository name
 set d1=%d:~0,-1%
 
 for %%f in (%d1%) do set repo_name=%%~nxf
 
-REM move back to the original directory
+:: move back to the original directory
  cd %d%
 
 git init
