@@ -3,6 +3,7 @@ Gaurav Shilpakar
 Januray 2020
 '''
 import os
+import sys
 from github import Github
 
 # enter your GIT USERNAME and passwords as strings
@@ -15,7 +16,7 @@ def main():
     '''
     Gets the current directory and assigns the last folder to the repo_name
     '''
-    curr_dir = os.getcwd()
+    curr_dir = str(sys.argv[1])
     repo_name = curr_dir.split('\\')[-1]
     G.create_repo(repo_name)
 

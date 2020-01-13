@@ -7,8 +7,8 @@ set d=%cd%
 set username=<username> 
 
 :: changes path where the py script is located
- cd D:\CodeProjects\PY\automate_git_py
-python gith.py
+    cd D:\CodeProjects\PY\automate_git_py
+python script.py %d%
 
 :: takes the last folder of the current directory for the repository name
 set d1=%d:~0,-1%
