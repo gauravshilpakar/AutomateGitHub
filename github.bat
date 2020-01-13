@@ -2,8 +2,11 @@
 
 :: d is the current working directory where git is initialized
 set d=%cd% 
-set username=gauravshilpakar
-:: path where the py script is located
+
+:: type your git username here
+set username=<username> 
+
+:: changes path where the py script is located
  cd D:\CodeProjects\PY\automate_git_py
 python gith.py
 
@@ -22,3 +25,5 @@ echo %repo_name% > README.md
 git add *
 git commit -m "inital commit"
 git push origin master
+
+echo Git Repository %repo_name% successfully created.
