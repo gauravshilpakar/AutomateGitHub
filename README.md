@@ -20,6 +20,6 @@ To run the program:
 * CD into the existing project folder
 * Run as `github` in CLI
 
-![alt text](Capture1.png)
+![alt text](https://github.com/gauravshilpakar/automate_git_py/blob/master/img/Capture1.PNG)
 
-![alt text](Capture2.png)
+![alt text](https://github.com/gauravshilpakar/automate_git_py/blob/master/img/Capture2.PNG)
