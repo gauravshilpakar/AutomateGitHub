@@ -20,6 +20,6 @@ To run the program:
 * CD into the existing project folder
 * Run as `github` in CLI
 
-![alt text](img\Capture1.png)
+![alt text](Capture1.png)
 
-![alt text](img\Capture2.png)
+![alt text](Capture2.png)
