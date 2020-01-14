@@ -19,6 +19,7 @@ To run the program:
     
 * CD into the existing project folder
 * Run as `github` in CLI
+* Run `gitcommit.bat` command as `gitcommit '<commit message>'`
 
 # In Progress
 ## Initial Commits
@@ -30,9 +31,10 @@ To run the program:
 
 ## Newer Commits???
 
- - [ ] git add * 
- - [ ] git commit -m 'commit message'  
- - [ ] git push origin master
+ - [x] git add * 
+ - [x] git commit -m 'commit message'  
+ - [x] git push origin master
+
 ![alt text](https://github.com/gauravshilpakar/automate_git_py/blob/master/img/Capture1.PNG)
 
 ![alt text](https://github.com/gauravshilpakar/automate_git_py/blob/master/img/Capture2.PNG)
