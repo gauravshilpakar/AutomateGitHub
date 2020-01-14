@@ -20,19 +20,19 @@ To run the program:
 * CD into the existing project folder
 * Run as `github` in CLI
 
-### In Progress
+# In Progress
+## Initial Commits
 
-    Initial Commits
+ - [x] git init
+ - [x] git remote add https://github.com/username/repo
+ - [x] git add *
+ - [x] git commit -m 'init commit'
 
-    - [x] git init
-    - [x] git remote add https://github.com/username/repo
-    - [x] git add *
-    - [x] git commit -m 'init commit'
+## Newer Commits
 
-    Newer Commits
-    - [ ] git add * 
-    - [ ] git commit -m 'commit message'  
-    - [ ] git push origin master
+ - [ ] git add * 
+ - [ ] git commit -m 'commit message'  
+ - [ ] git push origin master
 ![alt text](https://github.com/gauravshilpakar/automate_git_py/blob/master/img/Capture1.PNG)
 
 ![alt text](https://github.com/gauravshilpakar/automate_git_py/blob/master/img/Capture2.PNG)
