@@ -1,4 +1,6 @@
-Automate Process of logging into your GitHub, creating a repository, setting up remote repository and pushing initial commits.
+# Automate GitHub 
+## Description
+Ease process of logging into your GitHub, creating a repository, setting up remote repository and pushing initial commits.
 
 Note: Written in UTF-8 Encoding
 
@@ -22,13 +24,6 @@ To run the program:
 * Run `gitcommit.bat` command as `gitcommit '<commit message>'`
 
 # In Progress
-## Initial Commits
-
- - [x] git init
- - [x] git remote add https://github.com/username/repo
- - [x] git add *
- - [x] git commit -m 'init commit'
-
 ## Newer Commits???
 
  - [x] git add * 
